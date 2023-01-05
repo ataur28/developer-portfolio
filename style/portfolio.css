@@ -84,7 +84,9 @@ main {
     max-width: 1140;
     margin: 0 auto;
 }
-
+section{
+    margin-top: 130px;
+}
 /* about section */
 .about {
     margin: 130px;
@@ -96,9 +98,10 @@ main {
 }
 
 .section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .section-description {
@@ -124,3 +127,51 @@ main {
     font-size: 20px;
     color: #474747;
 }
+
+/* what i do style */
+.what-i-do{
+    margin: 130px;
+}
+
+.do-section-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    /* margin-top: 30px;
+    margin-bottom: 50px; */
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    /* padding: 30px 0px 20px; */
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resume style */
+
