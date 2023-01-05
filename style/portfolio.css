@@ -20,6 +20,19 @@
     padding: 18px 35px;
 }
 
+.btn-primary-contact{
+    height: 64px;
+    border-radius: 5px;
+    /* background: #FD6E0A; */
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    margin-left: 25px;
+    border-color: #FD6E0A;
+}
+
+
 .header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
